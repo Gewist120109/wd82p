@@ -1,6 +1,7 @@
 body {
   color: #414141;
   background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -38,6 +39,5 @@ strong {
 }
 
 em {
-  font-weight: 900;
   font-style: italic;
 }
