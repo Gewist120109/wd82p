@@ -65,7 +65,8 @@
   }
 
   .sign-up {
-    order: 1;
+    order: 2;
+    height: 200px;
   }
   .content {
     order: 3;
