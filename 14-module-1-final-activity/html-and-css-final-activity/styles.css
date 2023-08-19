@@ -81,9 +81,6 @@
   align-items: center;
 }
 
-.header-bottom {
-}
-
 .search-container {
   display: flex;
   align-items: center;
@@ -216,9 +213,6 @@ article div > p {
 
 .projects-links-container {
   align-self: flex-end;
-}
-
-.important {
 }
 
 .announcement-card,
