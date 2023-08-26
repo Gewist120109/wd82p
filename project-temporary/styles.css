@@ -276,6 +276,8 @@ ul {
 }
 
 .about-me {
+  width: 80%;
+  margin: 0 auto;
   background: rgba(21, 21, 21, 0.75);
   display: flex;
   justify-content: center;
@@ -285,7 +287,11 @@ ul {
 }
 
 .my-picture {
-  width: 80%;
+  width: 40%;
+}
+
+.brief-description {
+  width: 60%;
 }
 
 .my-picture img {
