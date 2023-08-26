@@ -198,6 +198,7 @@ ul {
 }
 
 .social-media {
+  color: #ffc000;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -249,7 +250,10 @@ ul {
 }
 
 .horizontal-line {
+  margin: 0 auto;
+  background: rgba(21, 21, 21, 0.75);
   border: 1px solid #ffc000;
+  width: 90%;
 }
 
 @media (min-width: 768px) {
