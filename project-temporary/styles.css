@@ -286,15 +286,17 @@ ul {
   gap: 1rem;
 }
 
-.my-picture {
-  width: 40%;
-}
-
-.brief-description {
-  width: 60%;
-}
-
 .my-picture img {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .my-picture {
+    width: 40%;
+  }
+
+  .brief-description {
+    width: 60%;
+  }
 }
