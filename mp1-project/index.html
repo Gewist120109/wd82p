@@ -13,19 +13,22 @@
   <body>
     <div class="page">
       <header class="menu-container">
-        <nav class="menu">
-          <ul class="menu-items">
-            <li class="header-logo">
-              <i class="fa-solid fa-bug fa-beat-fade">GM</i>
-            </li>
-
-            <li class="links">
-              <a class="#"><i class="fa-brands fa-facebook"></i></a>
-              <a class="#"><i class="fa-brands fa-github"></i></a>
-              <a class="#"><i class="fa-brands fa-linkedin"></i></a>
-            </li>
+        <section class="top-nav">
+          <div class="logo-container">
+            <img class="fa-beat" src="images/logo.png" alt="logo image" />
+          </div>
+          <input id="menu-toggle" type="checkbox" />
+          <label class="menu-button-container" for="menu-toggle">
+            <div class="menu-button"></div>
+          </label>
+          <ul class="menu">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <li><a href="#">Resume</a></li>
           </ul>
-        </nav>
+        </section>
       </header>
       <!-- main start -->
       <main class="main-container">
@@ -49,7 +52,7 @@
             </p>
             <div class="cto-container">
               <div class="btn-calltoaction">
-                <button class="btn-cto">Send me an email</button>
+                <button class="btn">Send me an email</button>
               </div>
               <div class="cto-description-container">
                 <p class="cto-description">Click the button for inquiries...</p>

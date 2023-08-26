@@ -30,6 +30,14 @@ a:hover {
   background: #d6e9fe;
 }
 
+.logo {
+  width: 50%;
+}
+
+.logo > img {
+  width: 100%;
+}
+
 .menu {
   display: flex;
   list-style-type: none;
@@ -52,6 +60,9 @@ a:hover {
   left: -20px;
 
   z-index: 1;
+  position: absolute;
+  top: -25px;
+  left: -100px;
 }
 
 .dropdown:hover .features-menu {
@@ -72,4 +83,18 @@ a:hover {
 .features {
   z-index: 2;
   position: relative;
+}
+
+.md-menu-links {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  .dropdown {
+    display: none;
+  }
+
+  .md-menu-links {
+    display: block;
+  }
 }

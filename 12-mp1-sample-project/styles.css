@@ -33,7 +33,7 @@
 .social-links {
   list-style: none;
   display: flex;
-  gap: 2em;
+  gap: 1.5em;
 }
 
 .hero-container {
@@ -68,13 +68,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 1.5em;
+  gap: 2em;
 }
 
 .hero-contact {
+  color: #ffffff;
   font-size: 20px;
   text-decoration: none;
-  color: #ffffff;
   padding-bottom: 15px;
   border-bottom: 2px solid #5fdaa3;
 }
@@ -84,7 +84,7 @@ hr {
   width: 100%;
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 600px) and (max-width: 960px) {
   .nav-container {
     flex-direction: row;
     justify-content: space-between;
@@ -95,6 +95,7 @@ hr {
   }
 
   .hero-img {
+    width: 40%;
     order: 1;
   }
 
@@ -114,5 +115,125 @@ hr {
 
   .hero-contact {
     font-size: 14px;
+  }
+}
+
+.skills-container {
+  display: grid;
+  gap: 1em;
+}
+
+.skills-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.skills-container > div h2 {
+  font-size: 36px;
+}
+
+.skills-container > div p {
+  color: #ababab;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  .skills-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skills-container div {
+    align-items: start;
+    gap: 1em;
+  }
+
+  .skills-container > div h2 {
+    font-size: 48px;
+  }
+
+  .skills-container > div p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .skills-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .skills-container div {
+    align-items: start;
+    gap: 1em;
+  }
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.projects-container {
+  display: grid;
+  gap: 4em;
+}
+
+.projects-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.project-details div {
+  display: flex;
+  gap: 1em;
+}
+
+.tech {
+  font-size: 18px;
+  color: #ababab;
+}
+
+.active-links {
+  display: flex;
+  gap: 2em;
+}
+
+.view-project,
+.view-link {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #5fdaa3;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projects-container header {
+    grid-column: 1 / 3;
   }
 }
