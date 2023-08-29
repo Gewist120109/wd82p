@@ -27,6 +27,9 @@ ul {
 /* start styling of header */
 
 .header-container {
+  /* display: grid;
+  grid-template-columns: 5fr 5fr; */
+  align-items: center;
   background-color: #151515;
   box-shadow: 1px 1px 5px 0px #000;
   position: fixed;
@@ -49,6 +52,9 @@ ul {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease-out;
+}
+
+.menu-container {
   text-align: center;
 }
 
@@ -120,41 +126,12 @@ ul {
   top: 0;
 }
 
-/* media querries @media size more than 767px */
-
-@media (min-width: 768px) {
-  .header-container {
-    padding: 1rem;
-  }
-  .nav-container {
-    max-height: none;
-    top: 0;
-    position: relative;
-    float: right;
-    width: fit-content;
-    background-color: transparent;
-  }
-  .menu-container a {
-    padding: 1rem;
-  }
-
-  .menu-container li {
-    float: left;
-  }
-  .menu-container a:hover {
-    background-color: transparent;
-    color: #ffc000;
-  }
-  .hamburger {
-    display: none;
-  }
-}
-
 /* main container styling */
 
 .main-container {
   background: rgba(21, 21, 21, 0.75);
   padding-top: 5rem;
+  height: 100vh;
   /* padding: 0 2rem 0 2rem; */
 }
 
@@ -238,6 +215,22 @@ ul {
   padding: 1em;
 }
 
+.about-me {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(21, 21, 21, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.my-picture img {
+  width: 100%;
+  height: auto;
+}
+
 .footer-container {
   font-size: 10px;
   color: #ffc000;
@@ -257,6 +250,36 @@ ul {
   width: 90%;
 }
 
+/* media querries @media size more than 767px */
+
+@media (min-width: 768px) {
+  .header-container {
+    padding: 1rem;
+  }
+  .nav-container {
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+    background-color: transparent;
+  }
+  .menu-container a {
+    padding: 1rem;
+  }
+
+  .menu-container li {
+    float: left;
+  }
+  .menu-container a:hover {
+    background-color: transparent;
+    color: #ffc000;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-container {
     width: 90%;
@@ -274,22 +297,6 @@ ul {
   .hero-content {
     width: 50%;
   }
-}
-
-.about-me {
-  width: 80%;
-  margin: 0 auto;
-  background: rgba(21, 21, 21, 0.75);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  gap: 1rem;
-}
-
-.my-picture img {
-  width: 100%;
-  height: auto;
 }
 
 @media (min-width: 768px) {
