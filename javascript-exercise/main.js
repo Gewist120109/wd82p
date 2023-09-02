@@ -12,9 +12,9 @@ balance = transaction3;
 console.log(balance);
 
 // Exercise 2
-let testScore1 = 85;
-let testScore2 = 75;
-let testScore3 = 93;
+let testScore1 = 92;
+let testScore2 = 85.6;
+let testScore3 = 72.5;
 
 let averageScore = Math.round((testScore1 + testScore2 + testScore3) / 3);
 console.log(averageScore);
