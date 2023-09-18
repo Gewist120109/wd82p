@@ -16,3 +16,4 @@ A repository containing along all sessions of kodego class WD-82P
    5. I-print ang value ng counter variable sa console
 
    ## Solving Fizz Buzz
+#Calculator
