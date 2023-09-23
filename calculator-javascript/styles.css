@@ -15,7 +15,7 @@
   background-color: #333333;
   width: 100%;
   max-width: 375px;
-  min-height: 700px;
+  max-height: 700px;
   height: 100dvh;
   display: flex;
   flex-direction: column;
